@@ -34,9 +34,9 @@ a:hover, a:focus{
 	color: black;
 }
 .logo{
-	width: 144px;
-	margin-top: 42px;
-	cursor: pointer;
+		width: 51px;
+    margin-top: 8px !important;
+    cursor: pointer;
 }
 .logo-blanco{
 	position: absolute;
@@ -48,10 +48,11 @@ a:hover, a:focus{
 
 .nav-bar{
 	/*background-color: gray;*/
-	height: 120px;
+	height: 94px !important;
 	position: fixed;
     width: 100%;
     z-index: 9;
+
 }
 nav ul{
 	margin: 42px;
@@ -72,7 +73,7 @@ nav ul li{
     padding: 19px;
 }
 header{
-	background-image: url(../img/header-fondo/texture.png), url(../img/header-fondo/n-bg3.jpg);
+	background-image: url(../img/header-fondo/texture.png), url(../img/header-fondo/n-bg3.jpeg);
 	/*position: relative; */
 	height: 648px;
 	background-size: auto, cover;
@@ -84,11 +85,7 @@ header h1{
 }
 .nosotros-empresa, .nuestra-cultura{
   height: auto;
-  background: #1875D1; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, #1875D1 , #2095F2); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #1875D1 , #2095F2); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #1875D1 , #2095F2); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #1875D1 , #2095F2); /* Standard syntax */
+  background: #b9b9b91a; /* For browsers that do not support gradients */
 }
 .proximamente h3{
 	padding-bottom: 26px;
