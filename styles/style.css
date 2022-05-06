@@ -75,7 +75,7 @@ nav ul li{
 header{
 	background-image: url(../img/header-fondo/texture.png), url(../img/header-fondo/n-bg3.jpeg);
 	/*position: relative; */
-	height: 648px;
+	height: 727px;
 	background-size: auto, cover;
     background-attachment: fixed;
     background-position: center;
